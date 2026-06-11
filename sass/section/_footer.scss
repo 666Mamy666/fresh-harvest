@@ -1,1 +1,86 @@
 @use "../base/var" as *;
+.footer{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+&__logo {
+  color: $decorative-color;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  margin: 0 auto;
+  padding-top: 20px;
+}
+&__logo-icon {
+    width: 24px;
+    height: 24px;
+    fill: $decorative-color;
+  }
+&__menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 44px;
+}
+&__social{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+  &__link{
+    color: $decorative-color;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: -0.56px;
+  }
+  &__social-link{
+    display: flex;
+padding: 8px;
+gap: 8px;
+border-radius: 10px;
+border: 1px solid #AE1332;
+opacity: 0.8;
+
+  }
+  &__social-icon{
+ width: 24.0px;
+height: 24.0px;
+fill: $decorative-color;
+  }
+&__contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px ;
+    padding-top: 44px;
+    text-align: center;
+}
+&__contacts-item{
+    max-width: 143px;
+}
+&__contacts-link{
+    color: #AE1332;
+font-family: "DM Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+text-transform: uppercase;
+
+}
+}

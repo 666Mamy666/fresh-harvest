@@ -1,1 +1,91 @@
 @use "../base/var" as *;
+.steps {
+  padding-bottom: 80px;
+
+  &__title {
+    text-align: center;
+    text-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
+    font-family: "DM Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -1.12px;
+    text-transform: uppercase;
+  }
+  &__text {
+    text-align: center;
+    text-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.56px;
+    margin-top: 14px;
+    margin-bottom: 44px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 38px;
+  }
+  &__item {
+    border-radius: 20px;
+    background: #fff;
+    width: 335px;
+    height: 112px;
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+  }
+  &__btn {
+    display: flex;
+    padding: 15px 42px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 200px;
+    background: $decorative-color;
+    width: 136px;
+    height: 48px;
+    padding: 15px 42px;
+    border: none;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.72px;
+white-space: nowrap;
+
+  }
+  &__item:first-child &__btn {
+    background: $decorative-color;
+  }
+
+  &__item:nth-child(2) &__btn {
+    background: #a1c864;
+  }
+
+  &__item:last-child &__btn {
+    background: #f5ce13;
+  }
+
+  &__desc {
+    flex-shrink: 0;
+    color: #000;
+    text-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.56px;
+    max-width: 145px;
+  }
+}

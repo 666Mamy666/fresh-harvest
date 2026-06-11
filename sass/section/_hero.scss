@@ -1,1 +1,160 @@
 @use "../base/var" as *;
+.hero {
+  padding-top: 56px;
+  padding-bottom: 80px;
+  position: relative;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__title {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
+    font-family: "DM Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: -1.12px;
+    text-transform: uppercase;
+    position: absolute;
+    color: #fff;
+    top: 56px;
+    right: 90px;
+    max-width: 335px;
+    z-index: 2;
+  }
+  &__strowbery {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 16px;
+    right: 80px;
+  }
+  &__banana {
+    width: 90px;
+    height: 76px;
+    position: absolute;
+    top: 116px;
+    left: 50px;
+  }
+  &__img {
+    border-radius: 500px;
+    margin-top: 48px;
+  }
+  &__btn {
+    transform: rotate(-14deg);
+    color: $decorative-color;
+    text-align: center;
+    text-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.8px;
+    text-transform: uppercase;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: none;
+      position: absolute;
+    top: 580px;
+  }
+  &__text {
+    text-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.56px;
+    margin-top: 71px;
+    margin-bottom: 44px;
+    max-width: 279px;
+  }
+  &__fruit-title {
+    text-align: center;
+    text-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
+    font-family: "DM Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.48px;
+  }
+  &__fruit-card {
+    padding-top: 28px;
+    padding-bottom: 40px;
+    width: 249px;
+    height: 387px;
+    border-radius: 500px;
+    background: #a4cb66;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__watermelon-img {
+    width: 200px;
+    height: 172px;
+    margin-top: 61px;
+    margin-bottom: 2px;
+  }
+  &__fruit-text {
+    text-align: center;
+    text-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
+    font-family: "DM Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+    max-width: 163px;
+  }
+  &__list {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    align-items: center;
+    justify-content: center;
+  }
+  &__tag-btn {
+    width: 125px;
+    height: 38px;
+    padding: 12px 32px;
+    display: inline-flex;
+    padding: 12px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 1000px;
+    border: 1px solid $text-color;
+    background-color: transparent;
+    text-align: center;
+    text-shadow: 0 4px 70px rgba(0, 0, 0, 0.1);
+    font-family: "DM Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+  }
+
+  &__card {
+    background: #f5ce13;
+  }
+  &__fruit-img {
+    width: 162px;
+    height: 185px;
+    margin-top: 19px;
+    margin-bottom: 17px;
+  }
+}
